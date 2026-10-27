@@ -1,0 +1,26 @@
+# 忽略所有 Python 编译的缓存文件
+*.pyc
+*.pyo
+__pycache__/
+
+# 忽略数据集（填自己的）
+/data/
+
+# 忽略自己的运行结果（填自己的）
+/runs/
+
+
+/.idea/
+
+# 忽略所有日志文件
+*.log
+*.csv
+
+# 忽略所有 PyTorch 模型权重（千万别把大模型传上 Git）
+*.pth
+*.pt
+*.onnx
+*.ckpt
+
+*.png
+*.jpg
